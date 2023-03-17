@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind forms;
+
+/* necessário para forçar os ícones a obedecerem o tamanho inseridos por classes do tailwind */
+span.material-symbols-rounded{
+    font-size: inherit;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    width: 0;
+    background-color: transparent;
+  }
